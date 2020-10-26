@@ -1,45 +1,106 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Milestone Project 1: Comedian Website
 
-Welcome USER_NAME,
+---- INSERT LINK TO LIVE PROJECT HERE ---------
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+This is the website for up and coming comedian/podcaster Milly Armstrong Clark. It is designed to be responsible and accessible on a range of devices, 
+making it easy for users to keep up to date on Milly's projects or upcoming events.
 
-## Gitpod Reminders
+---- INSERT SCREENSHOTS OF WEBSITE HERE --------
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+# User Experience (UX)
 
-A blue button should appear to click: *Make Public*,
+<h3>User Stories</h3>
 
-Another blue button should appear to click: *Open Browser*.
+<h4>First time visitors</h4>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+1. As a first time visitor, I want to be able to easily understand the purpose of the site, and navigate through the sections with ease.
 
-A blue button should appear to click: *Make Public*,
+2. As a first time visitor, I want to be able to find information pertaining to Milly Armstrong Clark's upcoming or ongoing projects.
 
-Another blue button should appear to click: *Open Browser*.
+3. As a first time visitor, I want to be able to easily locate social media links, and be able to contact Milly through an inbuilt contact form.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-## Updates Since The Instructional Video
+<h4>Returning visitors</h4>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+1. As a returning visitor, I want to be able to easily locate necessary information such as podcast or stand up video links.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+2. As a returning visitor, I want to be able to easily access links to social media.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+<h3>Design</h3>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+<h4>Colour Scheme</h4>
+A colour palette of pink, purple and white have been selected to match the predetermined palette used for the "Tea with the Morale Queen" podcast.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+<h4>Typography</h4>
+There are two main fonts that have been used for the website:
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+1. "Alatsi" is used for all headings and list items.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+2. "Roboto" is used for all paragraph text.
 
---------
+<h4>Images</h4>
+Striking images of comedian, Milly Armstrong Clark have been used throughout the site to uphold a state of continuity.
 
-Happy coding!
+<h4>Wireframes</h4>
+
+
+# Features
+
+  ----------  INSERT FEATURES HERE ----------
+
+# Technologies used
+
+<h3>Languages Used</h3>
+
+1. HTML5
+
+2. CSS3
+
+<h3>Frameworks, Libraries & Programs Used</h3>
+
+1. <a href "https://getbootstrap.com/">Bootstrap v4.5.3</a>
+    Bootstrap was used to assist with the responsiveness and styling of the website.
+
+2. <a href "https://fonts.google.com/">Google Fonts</a>
+    Google Fonts was used to import the "Alatsi" and "Roboto" fonts.
+
+3. <a href "https://fontawesome.com/">Font Awesome</a>
+    Font Awesome was used on all pages to provide icons for aesthetic and UX purposes.
+
+4. <a href "https://git-scm.com/>Git</a>
+    Git was used for version control, utilising the Gitpod terminal to commit to Git and Push to GitHub.
+
+5. <a href "https://github.com/">GitHub</a>
+    GitHub was used to store the project.
+
+6. <a href "https://www.photoshop.com/en">Adobe Photoshop</a>
+    Adobe Photoshop was used to create the background, and edit photos used throughout the website.
+
+
+# Testing
+
+------ INSERT TESTING PROCESSES HERE ----------
+
+
+# Deployment
+
+------ INSERT DEPLOYMENT PROCESS HERE ----------
+
+
+# Credits
+
+<h3>Content</h3>
+
+All content was written by the developer.
+
+
+<h3>Media</h3>
+
+All images were creater by the developer.
+
+
+<h3>Acknowledgements</h3>
+
+---- INSERT ACKNOWLEDGEMENTS HERE -------
