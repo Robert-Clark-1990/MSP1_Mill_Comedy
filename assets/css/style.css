@@ -2,13 +2,6 @@
 
 /*------------------------------------------------background */
 
-body {
-    background-image: url(assets/img/background.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
 
 /*------------------------------------------------fonts */
 
@@ -25,12 +18,10 @@ p {
 
 h1 {
     color: #fafafa;
-    font-size: 600%;
 }
 
 h2 {
     color: #7600e4;
-    font-size: 300%;
 }
 
 /*------------------------------------------------Special Paddings / margins / text */
@@ -101,7 +92,7 @@ footer {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 10px;
     color: #fafafa;
 }
@@ -119,7 +110,7 @@ footer {
 .intro-text {
     max-width: 100%;
     display: inline;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 
@@ -136,6 +127,12 @@ footer {
 
 /*------------------------------------------------about */
 
+.about-header {
+    font-size: 200%;
+}
+.about-image {
+    font-size: 200%;
+}
 
 
 /*------------------------------------------------podcast */
@@ -156,3 +153,50 @@ footer {
 
 /*------------------------------------------------Media Query */
 
+@media screen and (max-width: 400px) {
+    .head-image {  
+        display: none;
+    }
+    .intro-text {
+        font-size: 60%;
+        padding: 0;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 600px) {
+    .head-image {  
+        display: none;
+    }
+    .intro-text {
+        font-size: 70%;
+        padding: 10;
+        margin: 0;
+    }
+    #nav li {
+        font-size: 16;
+    }
+}
+
+@media screen and (max-width: 800px) {  
+    .intro-text h1 {
+        font-size: 200%;
+    }
+}
+
+@media screen and (max-width: 1200px) {  
+    .intro-text h1 {
+        font-size: 400%;
+    }
+}
+
+@media screen and (max-width: 1600px) {  
+    .intro-text h1 {
+        font-size: 600%;
+    }
+}
+
+@media screen and (max-width: 2000px) {  
+    .intro-text h1 {
+        font-size: 600%;
+    }
+}
