@@ -82,15 +82,17 @@ footer {
     margin: 0;
     padding: 10;
     text-align: center;
+    position: fixed;
+    bottom: 0;
 }
 
 .social-links {
-    padding: 40px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
 }
 
 .social-links li a i {
     width: 50px;
-    height: 50px;
+    height: 30px;
     border-radius: 50%;
     font-size: 40px;
     line-height: 10px;
@@ -115,8 +117,10 @@ footer {
 }
 
 .head-image {
-    max-height: 100%;
-    position: fixed right;
+    max-height: 90%;
+    position: fixed;
+    bottom: 0;
+    right: 5;
 }
 
 .col {
@@ -164,13 +168,25 @@ footer {
 
 /*------------------------------------------------contact */
 
+.center-form {
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
 
+button[type="submit"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #7600e4;
+    border: none;
+}
 
 /*------------------------------------------------Media Query */
 
 @media screen and (max-width: 400px) {
     .head-image {  
-        display: none;
+        max-height: 30%;
     }
     .intro-text {
         font-size: 60%;
@@ -180,7 +196,7 @@ footer {
 }
 @media screen and (max-width: 600px) {
     .head-image {  
-        display: none;
+        max-height: 50%;
     }
     .intro-text {
         font-size: 70%;
@@ -195,6 +211,9 @@ footer {
 @media screen and (max-width: 800px) {  
     .intro-text h1 {
         font-size: 200%;
+    }
+    .head-image {  
+        max-height: 70%;
     }
 }
 
