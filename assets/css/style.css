@@ -130,10 +130,25 @@ footer {
 .about-header {
     font-size: 200%;
 }
+
 .about-image {
-    font-size: 200%;
+    max-height: 100%;
+    position: fixed right;
 }
 
+.podcast-plug {
+    text-decoration: none;
+    color: #fafafa;
+    font-style: bold;
+}
+
+.podcast-plug:hover {
+    color: #7600e4;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;  
+}
 
 /*------------------------------------------------podcast */
 
