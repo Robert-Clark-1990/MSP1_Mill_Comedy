@@ -6,7 +6,6 @@
 /*------------------------------------------------fonts */
 
 h1,h2,h3,h4 {
-    margin: 0;
     font-family: "Alatsi", sans-serif;
     letter-spacing: 2px;
 }
@@ -24,6 +23,10 @@ h2 {
     color: #7600e4;
 }
 
+h3 {
+    color: #fafafa;
+}
+
 /*------------------------------------------------Special Paddings / margins / text */
 
 .uppercase {
@@ -32,6 +35,20 @@ h2 {
 
 .inline-block {
     display: inline-block;
+}
+
+ .link-plug {
+    text-decoration: none;
+    color: #b71ac5;
+}
+
+.link-plug:hover {
+    color: #7600e4;
+    text-decoration: none;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;  
 }
 
 /*------------------------------------------------header */
@@ -140,20 +157,6 @@ footer {
     position: fixed right;
 }
 
-.podcast-plug {
-    text-decoration: none;
-    color: #fafafa;
-    font-style: bold;
-}
-
-.podcast-plug:hover {
-    color: #7600e4;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;  
-}
-
 /*------------------------------------------------podcast */
 
 
@@ -164,14 +167,21 @@ footer {
 
 /*------------------------------------------------news */
 
+#news-container {
+    margin: 20;
+    padding: 20;
+}
 
+.news-img {
+    max-width: 500px;
+}
 
 /*------------------------------------------------contact */
 
 .center-form {
     padding: 10px;
     margin: 0 auto;
-    max-width: 70%;
+    max-width: 90%;
 }
 
 button[type="submit"] {
@@ -232,5 +242,11 @@ button[type="submit"] {
 @media screen and (max-width: 2000px) {  
     .intro-text h1 {
         font-size: 600%;
+    }
+}
+
+@media(min-width: 900px) {
+    .center-form {
+        max-width: 70%;
     }
 }
