@@ -27,6 +27,10 @@ h3 {
     color: #fafafa;
 }
 
+h4 {
+    color: #7600e4;
+}
+
 /*------------------------------------------------Special Paddings / margins / text */
 
 .uppercase {
@@ -39,11 +43,11 @@ h3 {
 
  .link-plug {
     text-decoration: none;
-    color: #b71ac5;
+    color: #7600e4;
 }
 
 .link-plug:hover {
-    color: #7600e4;
+    color: #c224b5;
     text-decoration: none;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -72,7 +76,8 @@ header {
 }
 
 .menuitem {
-    padding-right: 50px;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 
 .menuitem a {
@@ -163,6 +168,9 @@ footer {
 
 /*------------------------------------------------standup */
 
+.standupclip {
+    max-width: 70%;
+}
 
 
 /*------------------------------------------------news */
@@ -190,6 +198,19 @@ button[type="submit"] {
     color: #fafafa;
     background-color: #7600e4;
     border: none;
+    font-family: "Alatsi", sans-serif;
+}
+
+button[type="submit"]:hover {
+    background-color: #c224b5;
+    color: #fafafa;
+}
+
+.form-control {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: #7600e4;
+
 }
 
 /*------------------------------------------------Media Query */
