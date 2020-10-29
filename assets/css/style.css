@@ -63,7 +63,7 @@ header {
     text-align: center;
 }
 
-.menucontainer {
+/*.menucontainer {
     display: inline;
     font-family: "Alatsi", sans-serif;
     letter-spacing: 2px;
@@ -93,8 +93,39 @@ header {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+} */
+
+.navbar-nav {
+    font-family: "Alatsi", sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 26px;
 }
 
+.nav-item {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.nav-item a {
+    width: 100%;
+    text-decoration: none;
+    color: #fafafa;
+    height: 120px;
+}
+
+.nav-item a:hover {
+    color: #7600e4;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.fa-bars {
+color: #fafafa;
+}
 
 /*------------------------------------------------footer */
 
@@ -131,24 +162,29 @@ footer {
 
 /*------------------------------------------------homepage */
 
+#home-container {
+    margin: 10px;
+}
+
 .intro-text {
-    max-width: 100%;
     display: inline;
     padding-top: 100px;
     padding-bottom: 50px;
+    font-size: 80%;
 }
 
 .head-image {
-    max-height: 90%;
+    max-height: 50%;
     position: fixed;
     bottom: 0;
-    right: 5;
+    right: 0;
 }
 
 .col {
     min-width: 0;
     margin: 0;
     max-height: 800px;
+    padding: 10px;
 }
 
 /*------------------------------------------------about */
@@ -179,12 +215,13 @@ footer {
 /*------------------------------------------------news */
 
 #news-container {
-    margin: 20;
-    padding: 20;
+    margin: 50px;
+    padding: 50px;
 }
 
 .news-img {
     max-width: 500px;
+    padding-left: 20px;
 }
 
 /*------------------------------------------------contact */
@@ -218,59 +255,45 @@ button[type="submit"]:hover {
 
 /*------------------------------------------------Media Query */
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 540px) {
     .head-image {  
-        max-height: 30%;
+        max-height: 60%;
     }
     .intro-text {
         font-size: 60%;
-        padding: 0;
-        margin: 0;
+        padding: 10;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 768) {
     .head-image {  
-        max-height: 50%;
+        max-height: 90%;
     }
     .intro-text {
         font-size: 70%;
         padding: 10;
-        margin: 0;
     }
     #nav li {
         font-size: 16;
     }
 }
 
-@media screen and (max-width: 800px) {  
+@media screen and (min-width: 992) {  
     .intro-text h1 {
+        font-size: 300%;
+    }
+    .intro-text h2 {
         font-size: 200%;
     }
     .head-image {  
-        max-height: 70%;
+        max-height: 100%;
     }
-}
-
-@media screen and (max-width: 1200px) {  
-    .intro-text h1 {
-        font-size: 400%;
-    }
-}
-
-@media screen and (max-width: 1600px) {  
-    .intro-text h1 {
-        font-size: 600%;
-    }
-}
-
-@media screen and (max-width: 2000px) {  
-    .intro-text h1 {
-        font-size: 600%;
-    }
-}
-
-@media(min-width: 900px) {
     .center-form {
         max-width: 70%;
+    }
+}
+
+@media screen and (min-width: 1200px) {  
+    .intro-text h1 {
+        font-size: 400%;
     }
 }
