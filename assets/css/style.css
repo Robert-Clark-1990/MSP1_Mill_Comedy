@@ -55,6 +55,11 @@ h4 {
     -o-transition: all 0.35s ease-in-out;  
 }
 
+#page-margin {
+    margin: 20px 20px 50px 20px;
+    padding-right: 10px;
+}
+
 /*------------------------------------------------header */
 
 header {
@@ -62,38 +67,6 @@ header {
     margin: 0;
     text-align: center;
 }
-
-/*.menucontainer {
-    display: inline;
-    font-family: "Alatsi", sans-serif;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-#nav li {
-    font-size: 26px;
-}
-
-.menuitem {
-    padding-right: 25px;
-    padding-left: 25px;
-}
-
-.menuitem a {
-    width: 100%;
-    text-decoration: none;
-    color: #fafafa;
-    height: 120px;
-}
-
-.menuitem a:hover {
-    color: #7600e4;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-} */
 
 .navbar-nav {
     font-family: "Alatsi", sans-serif;
@@ -194,8 +167,10 @@ footer {
 }
 
 .about-image {
-    max-height: 100%;
-    position: fixed right;
+    max-height: 80%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
 
 /*------------------------------------------------podcast */
@@ -214,14 +189,12 @@ footer {
 
 /*------------------------------------------------news */
 
-#news-container {
-    margin: 50px;
-    padding: 50px;
-}
-
 .news-img {
-    max-width: 500px;
+    max-width: 60%;
     padding-left: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*------------------------------------------------contact */
@@ -256,8 +229,8 @@ button[type="submit"]:hover {
 /*------------------------------------------------Media Query */
 
 @media screen and (min-width: 540px) {
-    .head-image {  
-        max-height: 60%;
+    .head-image .about-image{  
+        display: none;
     }
     .intro-text {
         font-size: 60%;
