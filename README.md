@@ -113,3 +113,5 @@ All images were creater by the developer.
 <h3>Acknowledgements</h3>
 
 ---- INSERT ACKNOWLEDGEMENTS HERE -------
+
+Thank you to Ciaran Brady for their help locating the image swap hover code.

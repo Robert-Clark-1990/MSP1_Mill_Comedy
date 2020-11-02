@@ -55,8 +55,13 @@ h4 {
     -o-transition: all 0.35s ease-in-out;  
 }
 
-#page-margin {
-    margin: 20px 20px 50px 20px;
+#section-fit {
+    max-width: 90%;
+}
+
+.div .col-md {
+    padding-right: 0px;
+    margin-right: 0px;
 }
 
 /*------------------------------------------------header */
@@ -78,7 +83,9 @@ header {
 .nav-item {
     padding-right: 25px;
     padding-left: 25px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
+    display: inline-block;
+    text-align: center;
 }
 
 .nav-item a {
@@ -86,6 +93,9 @@ header {
     text-decoration: none;
     color: #fafafa;
     height: 50px;
+    position: relative;
+    display: block;
+    overflow: hidden;
 }
 
 .nav-item a:hover {
@@ -110,6 +120,7 @@ footer {
     text-align: center;
     position: fixed;
     bottom: 0;
+    z-index: 2;
 }
 
 .social-links {
@@ -146,22 +157,6 @@ footer {
     font-size: 80%;
 }
 
-/*.head-image-one {
-    max-height: 80%;
-    position: fixed;
-    bottom: 0;
-    right: 5;
-    visibility: visible;
-}
-
-.head-image-two {
-    max-height: 80%;
-    position: fixed;
-    bottom: 0;
-    right: 5;
-    visibility: hidden;
-} */
-
 .swap-on-hover {
     position: relative;
     margin: 0 auto;
@@ -173,23 +168,16 @@ footer {
     top: 0;
     left: 0;
     overflow: hidden;
+    max-height: 900px;
 }
 
 .swap-on-hover .swap-on-hover-head-image-one {
-    z-index: 9999;
+    z-index: 1;
     cursor: pointer;
 }
 
 .swap-on-hover:hover > .swap-on-hover-head-image-one {
     opacity: 0;
-}
-
-
-.col {
-    min-width: 0;
-    margin: 0;
-    max-height: 800px;
-    padding: 10px;
 }
 
 /*------------------------------------------------about */
@@ -205,12 +193,12 @@ footer {
     right: 0;
 }
 
-/*------------------------------------------------podcast */
-
-.jumbotron {
-    max-width: 70%;
-    background-color: rgba(0, 0, 0, 0);
+.about-text {
+    height: 80%;
+    overflow: auto;
 }
+
+/*------------------------------------------------podcast */
 
 .podcast-image {
     max-height: 80%;
@@ -237,10 +225,11 @@ footer {
 }
 
 .bottom-image {
-    max-height: 50%;
     display: block;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    max-width: 80%;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #img-row {
@@ -279,46 +268,35 @@ button[type="submit"]:hover {
 
 /*------------------------------------------------Media Query */
 
-@media screen and (max-width: 767px) {
-    .head-image-one .about-image .podcast-image{  
+@media (min-width: 576) {
+    .homepage-image .about-image .podcast-image {  
         visibility: hidden;
-    }
-    .intro-text {
-        font-size: 60%;
-        padding: 10;
     }
 }
 
-@media screen and (min-width: 768) {
-    .head-image-one .about-image .podcast-image {  
+@media (min-width: 768) {
+    .homepage-image .about-image .podcast-image {  
         max-height: 90%;
     }
-    .intro-text {
-        font-size: 70%;
-        padding: 10;
+
+    .intro-text .main-header-text {
+        font-size: 14em;
     }
+
+    .intro-text .header-text {
+        font-size: 12em;
+    }
+
     #nav li {
         font-size: 16;
     }
 }
 
-@media screen and (min-width: 992) {  
-    .intro-text h1 {
-        font-size: 300%;
-    }
-    .intro-text h2 {
-        font-size: 200%;
-    }
+@media (min-width: 992) {  
     .head-image {  
         max-height: 100%;
     }
     .center-form {
         max-width: 70%;
-    }
-}
-
-@media screen and (min-width: 1200px) {  
-    .intro-text h1 {
-        font-size: 400%;
     }
 }
