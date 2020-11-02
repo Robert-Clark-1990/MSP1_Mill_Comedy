@@ -202,7 +202,7 @@ footer {
     max-height: 80%;
     position: fixed;
     bottom: 0;
-    right: 5;
+    right: 0;
 }
 
 /*------------------------------------------------standup */
@@ -227,7 +227,6 @@ footer {
     display: block;
     margin-bottom: 0;
     padding-bottom: 0;
-    position: bottom;
 }
 
 #img-row {
@@ -268,7 +267,7 @@ button[type="submit"]:hover {
 
 @media screen and (max-width: 767px) {
     .head-image-one .about-image .podcast-image{  
-        display: none;
+        visibility: hidden;
     }
     .intro-text {
         font-size: 60%;
