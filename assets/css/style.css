@@ -146,7 +146,7 @@ footer {
     font-size: 80%;
 }
 
-.head-image-one {
+/*.head-image-one {
     max-height: 80%;
     position: fixed;
     bottom: 0;
@@ -160,16 +160,30 @@ footer {
     bottom: 0;
     right: 5;
     visibility: hidden;
+} */
+
+.swap-on-hover {
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
 }
 
-.head-image-one:hover {
-    .head-image-one {
-        visibility: hidden;
-    }
-    .head-image-two {
-        visibility: visible;
-    }
+.swap-on-hover img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
 }
+
+.swap-on-hover .swap-on-hover-head-image-one {
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.swap-on-hover:hover > .swap-on-hover-head-image-one {
+    opacity: 0;
+}
+
 
 .col {
     min-width: 0;
