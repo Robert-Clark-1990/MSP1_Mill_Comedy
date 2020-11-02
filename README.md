@@ -84,6 +84,9 @@ Striking images of comedian, Milly Armstrong Clark have been used throughout the
     
     Adobe Photoshop was used to create the background, and edit photos used throughout the website.
 
+7. <a href "https://codepen.io"> Codepen Io </a>
+
+    Codepen.io was used for reference of homepage hover functionality.
 
 # Testing
 
