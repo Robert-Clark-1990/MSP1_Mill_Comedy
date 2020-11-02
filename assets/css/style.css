@@ -207,6 +207,27 @@ footer {
     right: 0;
 }
 
+button[type="support"] {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #7600e4;
+    border: none;
+    font-family: "Alatsi", sans-serif;
+}
+
+button[type="support"]:hover {
+    background-color: #c224b5;
+    color: #fafafa;
+}
+
+.btn-support a {
+    color: #fafafa;
+    text-decoration: none;
+    font-family: "Alatsi", sans-serif;
+    text-transform: uppercase;
+}
+
 /*------------------------------------------------standup */
 
 .standupclip {
