@@ -60,27 +60,27 @@ Striking images of comedian, Milly Armstrong Clark have been used throughout the
 
 <h3>Frameworks, Libraries & Programs Used</h3>
 
-1. <a href "https://getbootstrap.com/">Bootstrap v4.5.3</a>
+1. <a href "https://getbootstrap.com/"> Bootstrap v4.5.3 </a>
     
     Bootstrap was used to assist with the responsiveness and styling of the website.
 
-2. <a href "https://fonts.google.com/">Google Fonts</a>
+2. <a href "https://fonts.google.com/"> Google Fonts </a>
     
     Google Fonts was used to import the "Alatsi" and "Roboto" fonts.
 
-3. <a href "https://fontawesome.com/">Font Awesome</a>
+3. <a href "https://fontawesome.com/"> Font Awesome </a>
     
     Font Awesome was used on all pages to provide icons for aesthetic and UX purposes.
 
-4. <a href "https://git-scm.com/>Git</a>
+4. <a href "https://git-scm.com/> Git </a>
     
     Git was used for version control, utilising the Gitpod terminal to commit to Git and Push to GitHub.
 
-5. <a href "https://github.com/">GitHub</a>
+5. <a href "https://github.com/"> GitHub </a>
     
     GitHub was used to store the project.
 
-6. <a href "https://www.photoshop.com/en">Adobe Photoshop</a>
+6. <a href "https://www.photoshop.com/en"> Adobe Photoshop </a>
     
     Adobe Photoshop was used to create the background, and edit photos used throughout the website.
 
