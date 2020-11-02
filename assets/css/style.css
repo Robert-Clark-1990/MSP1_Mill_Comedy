@@ -146,11 +146,28 @@ footer {
     font-size: 80%;
 }
 
-.head-image {
-    max-height: 50%;
+.head-image-one {
+    max-height: 80%;
     position: fixed;
     bottom: 0;
-    right: 0;
+    right: 5;
+}
+
+.head-image-two {
+    max-height: 80%;
+    position: fixed;
+    bottom: 0;
+    right: 5;
+    display: none;
+}
+
+.head-image-one:hover {
+    .head-image-one {
+        display: none;
+    }
+    .head-image-two {
+        display: inline;
+    }
 }
 
 .col {
@@ -180,6 +197,13 @@ footer {
     background-color: rgba(0, 0, 0, 0);
 }
 
+.podcast-image {
+    max-height: 80%;
+    position: fixed;
+    bottom: 0;
+    right: 5;
+}
+
 /*------------------------------------------------standup */
 
 .standupclip {
@@ -195,6 +219,21 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.bottom-image {
+    max-height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: bottom;
+}
+
+#img-row {
+    padding: 0px;
+    margin: 0px;
 }
 
 /*------------------------------------------------contact */
