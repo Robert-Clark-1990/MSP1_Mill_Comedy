@@ -112,6 +112,10 @@ All images were creater by the developer.
 
 <h3>Acknowledgements</h3>
 
----- INSERT ACKNOWLEDGEMENTS HERE -------
-
 Thank you to Ciaran Brady for their help locating the image swap hover code.
+
+Thanks to Creative Programmer for their image swap on hover code that was used for the homepage of this project.
+<a href "https://codepen.io/creativeprogrammer/pen/RpBpgm"> </a>
+
+Thanks to Andor Nagy for their responsive navbar that was used as a guideline for this project
+<a href "https://codepen.io/andornagy/pen/RNeydj?editors=1100"> </a>

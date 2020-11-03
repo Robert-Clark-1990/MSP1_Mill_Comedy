@@ -167,13 +167,15 @@ footer {
 #footer-image-row {
     position: absolute;
     bottom: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .footer-image {
     max-width: 90%;
     z-index: 0;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 /*------------------------------------------------homepage */
@@ -261,9 +263,10 @@ button[type="support"]:hover {
 /*------------------------------------------------standup */
 
 .standupclip {
-    max-width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
 
 /*------------------------------------------------news */
 
