@@ -196,6 +196,10 @@ footer {
     z-index: 2;
 }
 
+#footer-details {
+    z-index: 2;
+}
+
 .social-links {
     padding: 30px 0px 0px 0px;
 }
@@ -224,6 +228,7 @@ footer {
 
 .footer-image {
     max-width: 90%;
+    z-index: 0;
 }
 
 /*------------------------------------------------homepage */
