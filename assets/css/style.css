@@ -186,7 +186,7 @@ footer {
 
 .intro-text {
     display: inline;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -258,6 +258,11 @@ button[type="support"]:hover {
     text-decoration: none;
     font-family: "Alatsi", sans-serif;
     text-transform: uppercase;
+}
+
+.podcast-icons {
+    margin: 0;
+    padding: 0;
 }
 
 /*------------------------------------------------standup */
@@ -342,9 +347,12 @@ button[type="submit"]:hover {
 
 	.toggle {
 		display: block;
-		background-color: rgba(0, 0, 0, 0.3);
+		background-color: rgba(0, 0, 0, 0.2);
 		padding:14px 20px;	
 		color:#fafafa;
+        font-family: "Alatsi", sans-serif;
+        text-transform: uppercase;
+        text-align: center;
 		font-size:17px;
 		text-decoration:none;
 		border:none;
