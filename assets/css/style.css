@@ -229,6 +229,8 @@ footer {
 .footer-image {
     max-width: 90%;
     z-index: 0;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
 }
 
 /*------------------------------------------------homepage */
@@ -277,12 +279,12 @@ footer {
     max-height: 80%;
     position: fixed;
     bottom: 0;
-    right: 0;
+    right: 5;
 }
 
 .about-text {
     height: 80%;
-    overflow: auto;
+    
 }
 
 /*------------------------------------------------podcast */
