@@ -31,6 +31,16 @@ h4 {
     color: #7600e4;
 }
 
+/* ---- New stuff added --- */
+
+a {
+	color: #fafafa;
+    font-family: "Alatsi", sans-serif;
+    text-transform: uppercase;
+}
+
+/* ---- New stuff ended --- */
+
 /*------------------------------------------------Special Paddings / margins / text */
 
 .uppercase {
@@ -64,13 +74,25 @@ h4 {
     margin-right: 0px;
 }
 
+/* ---- New stuff added --- */
+
+#container {
+	margin: 0 auto;
+	max-width: 890px;
+}
+
+.toggle,
+[id^=drop] {
+	display: none;
+}
+
+/* ---- New stuff ended --- */
+
 /*------------------------------------------------header */
 
-header {
-    padding: 20px;
-    margin: 0;
-    text-align: center;
-}
+
+
+/* ---- old nav start
 
 .navbar-nav {
     font-family: "Alatsi", sans-serif;
@@ -110,6 +132,57 @@ header {
 color: #fafafa;
 }
 
+old nav end --- */
+
+
+
+/* ---- New stuff added --- */
+
+nav { 
+	margin:0;
+	padding: 0;
+}
+
+nav ul {
+	text-align: center;
+	padding:0;
+	margin:0;
+	list-style: none;
+	position: relative;
+	}
+	
+nav ul li {
+	margin: 0px;
+	display:inline;
+	background-color: rgba(0, 0, 0, 0);
+	}
+
+nav a {
+	display:inline-block;
+	padding:14px 20px;	
+	color:#fafafa;
+	font-size:20px;
+    letter-spacing: 2px;
+	text-decoration:none;
+}
+
+nav a:hover { 
+	color: #7600e4;
+    text-decoration: none;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out; 
+}
+
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px; 
+}
+
+/* ---- New stuff ended --- */
+
 /*------------------------------------------------footer */
 
 footer {
@@ -142,6 +215,15 @@ footer {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+}
+
+#footer-image-row {
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-image {
+    max-width: 90%;
 }
 
 /*------------------------------------------------homepage */
@@ -289,34 +371,71 @@ button[type="submit"]:hover {
 
 /*------------------------------------------------Media Query */
 
-@media (min-width: 576) {
-    .homepage-image .about-image .podcast-image {  
+@media all and (max-width : 768px) {
+
+    #section-fit {
+        max-width: 100%;
+    }
+
+	nav {
+		margin: 0;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.toggle {
+		display: block;
+		background-color: rgba(0, 0, 0, 0.3);
+		padding:14px 20px;	
+		color:#fafafa;
+		font-size:17px;
+		text-decoration:none;
+		border:none;
+	}
+
+	.toggle:hover {
+		background-color: #7600e4;
+	}
+
+	/* Display Dropdown when clicked on Parent Lable */
+	[id^=drop]:checked + ul {
+		display: block;
+	}
+
+	nav ul li {
+		display: block;
+		width: 100%;
+		}
+
+	/* Hide Dropdowns by Default */
+	nav ul ul {
+		float: none;
+		position:static;
+		color: #ffffff;
+	}
+		
+	/* Hide menus on hover */
+	nav ul ul li:hover > ul,
+	nav ul li:hover > ul {
+		display: none;
+	}
+
+    .about-image .podcast-image {  
         visibility: hidden;
     }
 }
 
-@media (min-width: 768) {
-    .homepage-image .about-image .podcast-image {  
-        max-height: 90%;
-    }
+@media all and (max-width : 330px) {
 
-    .intro-text .main-header-text {
-        font-size: 14em;
-    }
-
-    .intro-text .header-text {
-        font-size: 12em;
-    }
-
-    #nav li {
-        font-size: 16;
-    }
+	nav ul li {
+		display:block;
+		width: 94%;
+	}
 }
 
 @media (min-width: 992) {  
-    .head-image {  
-        max-height: 100%;
-    }
     .center-form {
         max-width: 70%;
     }
