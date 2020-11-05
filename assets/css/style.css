@@ -62,8 +62,8 @@ a {
     -o-transition: all 0.35s ease-in-out;  
 }
 
-#section-fit {
-    max-width: 90%;
+.section #section-fit {
+    max-width: 80%;
 }
 
 .div .col-md {
@@ -186,8 +186,7 @@ footer {
 
 .intro-text {
     display: inline;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
 }
 
 /* Credit to Creative Programmer for the image hover code */
@@ -331,9 +330,9 @@ button[type="submit"]:hover {
 
 @media all and (max-width : 768px) {
 
-    #section-fit {
-        max-width: 100%;
-    }
+    .section #section-fit {
+    max-width: 90%;
+}
 
 	nav {
 		margin: 0;

@@ -1,12 +1,14 @@
-# Milestone Project 1: Comedian Website
+# Milestone Project 1: Mill Comedy - Comedian Website
 
 [Mill Comedy](https://robert-clark-1990.github.io/MSP1_Mill_Comedy/)
 
-This is the website for the up and coming comedian/podcaster/screenwriter, Milly Armstrong Clark. It is designed to be responsible and accessible on a range of devices, making it easy for users to keep up to date with Milly's projects or upcoming events and communicate with her through the use of a contact form.
+This is the website for the up and coming comedian/podcaster/screenwriter, Milly Armstrong Clark. 
+It is designed to be responsible and accessible on a range of devices, making it easy for users to keep up to date with Milly's projects or upcoming events and communicate with her through the use of a contact form.
 
 ---- INSERT SCREENSHOTS OF WEBSITE HERE --------
 
 This project has been built using the five planes of UX design to develop a site that is focused in its needs and objectives, and provides a high quality experience for the user.
+
 
 # Strategy
 
@@ -17,6 +19,7 @@ To create an experience that gives the user a clear understanding of Milly’s c
 To showcase a creative curriculum vitae of Milly’s work for potential clients or producers who may be interested in working with her.
 
 The user needs are outlined below in the User Stories.
+
 
 # User Experience (UX)
 
@@ -56,14 +59,20 @@ There are two main fonts that have been used for the website:
 
 #### Images
 Striking images of comedian, Milly Armstrong Clark have been used throughout the site to uphold a state of continuity.
+These images reflect the style of comedy used in her work, building consistensy in both the site and her work as soon as the user interacts with the site.
 
 #### Wireframes
+In preparation for this project, a basic wireframe of each page and how it would be viewed in desktop, tablet and mobile has been created.
+The wireframe for this project can be viewed ![here](assets/doc/mc-wireframes.pdf)
 
 #### Mock-ups
+In preparation for this project, a basic moc-up of each page has been created to show the intended style of the website as a whole.
+The mock-ups for this project can be viewed ![here](assets/doc/mc-mockup.pdf)
 
 # Features
 
   ----------  INSERT FEATURES HERE ----------
+
 
 # Technologies used
 
@@ -103,9 +112,11 @@ Striking images of comedian, Milly Armstrong Clark have been used throughout the
 
     Codepen was used for reference of homepage hover functionality.
 
+
 # Testing
 
 ------ INSERT TESTING PROCESSES HERE ----------
+
 
 # Deployment
 
@@ -119,15 +130,18 @@ Striking images of comedian, Milly Armstrong Clark have been used throughout the
 
 5. This will create a link, visible just below the GitHub Pages title in a green box.
 
+
 # Credits
 
 ### Content
 
-All content was written by the developer, Robert Clark with permission from Milly Armstrong Clark.
+All written content was created by the developer, Robert Clark with permission from Milly Armstrong Clark.
 
 ### Media
 
 All images were created by the developer, Robert Clark, with permission from Milly Armstrong Clark.
+
+All podcasts and videos provided used with permission from Milly Armstrong Clark.
 
 ### Acknowledgements
 
