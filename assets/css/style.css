@@ -221,7 +221,7 @@ footer {
     max-height: 80%;
     position: fixed;
     bottom: 0;
-    right: 0;
+    right: 5;
 }
 
 button[type="support"] {
