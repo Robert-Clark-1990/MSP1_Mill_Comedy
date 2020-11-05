@@ -1,6 +1,6 @@
 # Milestone Project 1: Mill Comedy - Comedian Website
 
-[Mill Comedy](https://robert-clark-1990.github.io/MSP1_Mill_Comedy/)
+## [Mill Comedy](https://robert-clark-1990.github.io/MSP1_Mill_Comedy/)
 
 This is the website for the up and coming comedian/podcaster/screenwriter, Milly Armstrong Clark. 
 It is designed to be responsible and accessible on a range of devices, making it easy for users to keep up to date with Milly's projects or upcoming events and communicate with her through the use of a contact form.
@@ -12,11 +12,11 @@ This project has been built using the five planes of UX design to develop a site
 
 # Strategy
 
-The site objectives for this website are twofold: 
+The two main site objectives for this website are as follows: 
 
-To create an experience that gives the user a clear understanding of Milly’s creative stylings through the use of colour, images, and written content.
+* To create an experience that gives the user a clear understanding of Milly’s creative stylings through the use of colour, images, and written content.
 
-To showcase a creative curriculum vitae of Milly’s work for potential clients or producers who may be interested in working with her.
+* To showcase a creative curriculum vitae of Milly’s work for potential clients or producers who may be interested in working with her.
 
 The user needs are outlined below in the User Stories.
 
@@ -45,29 +45,39 @@ The user needs are outlined below in the User Stories.
 
 2. As a potential client, I want to have an easily accessible contact form to reach Milly.
 
+
 ### Design
 
 #### Colour Scheme
+
 A colour palette of pink, purple and white have been selected to match the predetermined palette used for the "Tea with the Morale Queen" podcast.
 
+
 #### Typography
+
 There are two main fonts that have been used for the website:
 
 1. "Alatsi" is used for all headings and list items.
 
 2. "Roboto" is used for all paragraph text.
 
+
 #### Images
 Striking images of comedian, Milly Armstrong Clark have been used throughout the site to uphold a state of continuity.
 These images reflect the style of comedy used in her work, building consistensy in both the site and her work as soon as the user interacts with the site.
 
+
 #### Wireframes
+
 In preparation for this project, a basic wireframe of each page and how it would be viewed in desktop, tablet and mobile has been created.
-The wireframe for this project can be viewed ![here](assets/doc/mc-wireframes.pdf)
+The wireframe for this project can be viewed [here](assets/doc/mc-wireframes.pdf).
+
 
 #### Mock-ups
+
 In preparation for this project, a basic moc-up of each page has been created to show the intended style of the website as a whole.
-The mock-ups for this project can be viewed ![here](assets/doc/mc-mockup.pdf)
+The mock-ups for this project can be viewed [here](assets/doc/mc-mockup.pdf).
+
 
 # Features
 
@@ -81,6 +91,7 @@ The mock-ups for this project can be viewed ![here](assets/doc/mc-mockup.pdf)
 1. HTML5
 
 2. CSS3
+
 
 ### Frameworks, Libraries & Programs Used
 
@@ -115,7 +126,13 @@ The mock-ups for this project can be viewed ![here](assets/doc/mc-mockup.pdf)
 
 # Testing
 
------- INSERT TESTING PROCESSES HERE ----------
+During the testing process, the website was subjected to a Lighthouse report to identify and fix common problems that affect the site's performance, accessibility and user experience.
+The report brought back the following results.
+
+![The report brought back the following results](assets/docs/lighthouse.png)
+
+It was clear there was work to be done on improving the site's performance, an issue that likely arose from the use of jpeg and png files instead of jpeg2000 throughout the site, including the main background image. 
+As such, these images were replaced with jpeg2000 images, which brought reduced the latency issue that had previously existed.
 
 
 # Deployment
@@ -135,23 +152,25 @@ The mock-ups for this project can be viewed ![here](assets/doc/mc-mockup.pdf)
 
 ### Content
 
-All written content was created by the developer, Robert Clark with permission from Milly Armstrong Clark.
+* All written content was created by the developer, Robert Clark with permission from Milly Armstrong Clark.
+
 
 ### Media
 
-All images were created by the developer, Robert Clark, with permission from Milly Armstrong Clark.
+* All images were created by the developer, Robert Clark, with permission from Milly Armstrong Clark.
 
-All podcasts and videos provided used with permission from Milly Armstrong Clark.
+* All podcasts and videos provided used with permission from Milly Armstrong Clark.
+
 
 ### Acknowledgements
 
-Thanks to Milly Armstrong Clark for allowing this project to be based on her incredible work.
+* Thanks to [Milly Armstrong Clark](https://www.instagram.com/millcomedy/) for allowing this project to be based on her incredible work.
 
-Thanks to Slack User Healycian90 for their help recovering work not pushed to GitHub.
+* Thanks to Slack User Healycian90 for their help recovering work not pushed to GitHub.
 
-Thanks to Slack User Ciaran Brady for their help locating the image swap hover code.
+* Thanks to Slack User Ciaran Brady for their help locating the image swap hover code.
 
-Thanks to [Creative Programmer](https://codepen.io/creativeprogrammer/pen/RpBpgm) for their image swap on hover code that was used for the homepage of this project.
+* Thanks to [Creative Programmer](https://codepen.io/creativeprogrammer/pen/RpBpgm) for their image swap on hover code that was used for the homepage of this project.
 
-Thanks to [Andor Nagy](https://codepen.io/andornagy/pen/RNeydj?editors=1100) for their responsive navbar that was used as a guideline and adapted for this project.
+* Thanks to [Andor Nagy](https://codepen.io/andornagy/pen/RNeydj?editors=1100) for their responsive navbar that was used as a guideline and adapted for this project.
 
