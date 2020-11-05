@@ -71,11 +71,6 @@ a {
     margin-right: 0px;
 }
 
-#container {
-	margin: 0 auto;
-	max-width: 890px;
-}
-
 .toggle,
 [id^=drop] {
 	display: none;
@@ -148,7 +143,7 @@ footer {
 }
 
 .social-links li a i {
-    width: 50px;
+    width: 40px;
     height: 30px;
     border-radius: 50%;
     font-size: 40px;
@@ -180,15 +175,6 @@ footer {
 
 /*------------------------------------------------homepage */
 
-#home-container {
-    margin: 10px;
-}
-
-.intro-text {
-    display: inline;
-    padding-top: 20px;
-}
-
 /* Credit to Creative Programmer for the image hover code */
 
 .swap-on-hover {
@@ -199,9 +185,7 @@ footer {
 
 .swap-on-hover img {
     position: absolute;
-    top: 0;
-    left: 0;
-    overflow: hidden;
+    top: 10;
     max-height: 900px;
 }
 
@@ -342,8 +326,12 @@ button[type="submit"]:hover {
 		display: none;
 	}
 
+    .uppercase {
+        text-align: center;
+    }
+
     h1 {
-        font-size: 300%;
+        font-size: 500%;
     }
 
     /* Credit to Andor Nagy for the responsive navbar that was used as a guideline and adapted for this project */
