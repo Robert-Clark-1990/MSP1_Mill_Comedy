@@ -126,6 +126,8 @@ The mock-ups for this project can be viewed [here](assets/doc/mc-mockup.pdf).
 
 # Testing
 
+## Site performance
+
 During the testing process, the website was subjected to a Lighthouse report to identify and fix common problems that affect the site's performance, accessibility and user experience.
 The report brought back the following results.
 
@@ -133,6 +135,12 @@ The report brought back the following results.
 
 It was clear there was work to be done on improving the site's performance, an issue that likely arose from the use of jpeg and png files instead of jpeg2000 throughout the site, including the main background image. 
 As such, these images were replaced with jpeg2000 images, which brought reduced the latency issue that had previously existed.
+
+## Site Containers
+
+Throughout development, the website seemed unresponsive and clung to the margins of the browser despite efforts made to counter this. 
+In a last ditch attempt to fix it, the entire homepage was rebuilt from scratch to see if the issue would persist, and low and behold, the issue was the lack of a container div, 
+within which the row and col divs had free reign to hug the browser margins. This fix has made the site much more attractive to view.
 
 
 # Deployment
