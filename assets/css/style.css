@@ -190,6 +190,8 @@ footer {
     padding-bottom: 50px;
 }
 
+/* Credit to Creative Programmer for the image hover code */
+
 .swap-on-hover {
     position: relative;
     margin: 0 auto;
@@ -344,6 +346,8 @@ button[type="submit"]:hover {
     h1 {
         font-size: 300%;
     }
+
+    /* Credit to Andor Nagy for the responsive navbar that was used as a guideline and adapted for this project */
 
 	.toggle {
 		display: block;
