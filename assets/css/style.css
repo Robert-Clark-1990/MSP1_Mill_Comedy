@@ -190,7 +190,7 @@ footer {
 
 .swap-on-hover img {
     position: absolute;
-    top: 10;
+    top: 10%;
     max-height: 900px;
 }
 
@@ -213,7 +213,7 @@ footer {
     max-height: 80%;
     position: fixed;
     bottom: 0;
-    right: 5;
+    right: 5%;
 }
 
 .about-text {
@@ -226,7 +226,7 @@ footer {
     max-height: 80%;
     position: fixed;
     bottom: 0;
-    right: 5;
+    right: 5%;
 }
 
 button[type="submit"] {

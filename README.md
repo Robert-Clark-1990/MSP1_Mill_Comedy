@@ -59,10 +59,12 @@ There are two main fonts that have been used for the website:
 
 2. "Roboto" is used for all paragraph text.
 
+Headers are displayed in uppercase to fall in line with the guidelines of the "Tea with the Morale Queen" brand.
+
 
 #### Images
 Striking images of comedian, Milly Armstrong Clark have been used throughout the site to uphold a state of continuity.
-These images reflect the style of comedy used in her work, building consistensy in both the site and her work as soon as the user interacts with the site.
+These images reflect the style of comedy used in her work, building consistency in both the site and her work as soon as the user interacts with the site.
 
 
 #### Wireframes
@@ -83,33 +85,37 @@ The mock-ups for this project can be viewed [here](assets/doc/mc-mockup.pdf).
 
 1. Home page - This page utilises a clean, professional look to welcome users to the site. A comedic element exists on the homepage, wherein the user can hover over the image of Milly which swaps it to an image of her pulling a face.
 
-2. About page - A short background on Milly's life, both personally and professionally, with an image of her to accompany it.
+2. About page - Allows users to read short background on Milly's life, both personally and professionally, with an image of her to accompany it.
 
-3. Podcast page - A clean page detailing Milly's podcast, Tea with the Morale Queen, with an embedded element to listen to the most recent podcast, subscribe via a selection of icons, and a support button for those looking to support the podcast.
+3. Podcast page - Allows users access to a clean page detailing Milly's podcast, Tea with the Morale Queen, with an embedded element to listen to the most recent podcast, subscribe via a selection of icons, and a support button for those looking to support the podcast.
 
 4. Stand Up page - Following a brief description of her comedic style, users can watch sets from Milly's previous performances.
 
-5. News page - A page of news articles presented in date order, with images and necessary links provided.
+5. News page - Allows users to view a page of news articles presented in date order, with images and necessary links provided.
 
 6. Contact page - A clean contact form for users to get in touch with Milly.
 
 
-### Features left to implement
+### Future features to implement
 
-1. In order to expand on the full vision of Milly's work, a page dedicated to her wildlife work will be added at a future date.
+1. Wildlife Work - In order to expand on the full vision of Milly's work, a page dedicated to her wildlife work will be added at a future date.
 
-2. Upon the creation of a mailing list, this will be implemented into the site, with a modal Call to Action on the homepage, a link in the footer, and inclusion on the Contact page.
+2. Sign Up Form - Upon the creation of a mailing list, this will be implemented into the site, with a modal Call to Action on the homepage, a link in the footer, and inclusion on the Contact page.
 
-3. A media page will be added at a future date to include official images of Milly for professional use.
+3. Media - A media page will be added at a future date to include official images of Milly for professional use.
 
 
 # Technologies used
 
 ### Languages Used
 
-1. HTML5
+1. [HTML5](https://en.wikipedia.org/wiki/HTML5)
 
-2. CSS3
+   This site uses HTML5 as it's main language.
+
+2. [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+   This site uses CSS3 for it's styling.
 
 
 ### Frameworks, Libraries & Programs Used
@@ -167,9 +173,6 @@ This reduced load times, bringing the performance up into the 90s.
 Throughout development, the website seemed unresponsive and clung to the margins of the browser despite efforts made to counter this. 
 In a last ditch attempt to fix it, the entire homepage was rebuilt from scratch to see if the issue would persist, and low and behold, the issue was the lack of a container div, 
 within which the row and col divs had free reign to hug the browser margins. This fix has made the site much more attractive to view.
-
-
-
 
 ## W3 HTML Validator
 
@@ -245,7 +248,7 @@ within which the row and col divs had free reign to hug the browser margins. Thi
 
    To fix: button was rewritten with thanks to code on [w3docs](https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html) that turned it into a form element.
 
-### Standup Page
+### Stand up Page
 
 * Validator returned with : **The frameborder attribute on the iframe element is obsolete.**
 
@@ -264,15 +267,15 @@ within which the row and col divs had free reign to hug the browser margins. Thi
 
 * Validator returned with : **193: .swap-on-hover img | Value Error : top only 0 can be a unit. You must put a unit after your number : 10**
 
-   To fix: 
+   To fix: changed to add a %
 
 * Validator returned with : **216: .about-image | Value Error : right only 0 can be a unit. You must put a unit after your number : 5**
 
-   To fix:
+   To fix: changed to add a %
 
 * Validator returned with : **229 .podcast-image | Value Error : right only 0 can be a unit. You must put a unit after your number : 5**
 
-   To fix:
+   To fix: changed to add a %
 
 * Validator returned with : **397 | only 0 can be a unit. You must put a unit after your number**
 
@@ -325,7 +328,7 @@ Then follow these steps:
 
 * All podcasts and videos provided used with permission from [Milly Armstrong Clark](https://www.youtube.com/channel/UCm8_k81-p_cEimTHmhDOB-w).
 
-* Confidence for Breakfast artwork was created by the developer, Robert Clark, with permission from [Melanie Judson](https://www.instagram.com/confidenceforbreakfast/).
+* Confidence for Breakfast artwork was created by the developer, Robert Clark, used with permission from [Melanie Judson](https://www.instagram.com/confidenceforbreakfast/).
 
 
 ### Code
