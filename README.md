@@ -123,6 +123,10 @@ The mock-ups for this project can be viewed [here](assets/doc/mc-mockup.pdf).
 
     Codepen was used for reference of homepage hover functionality.
 
+8. [Online Convert](https://image.online-convert.com/convert-to-webp)
+
+    Online Convert was used to turn images into webp format.
+
 
 # Testing
 
@@ -131,10 +135,13 @@ The mock-ups for this project can be viewed [here](assets/doc/mc-mockup.pdf).
 During the testing process, the website was subjected to a Lighthouse report to identify and fix common problems that affect the site's performance, accessibility and user experience.
 The report brought back the following results.
 
-![The report brought back the following results](assets/docs/lighthouse.png)
+![Performance Test One](assets/docs/lighthouse.png)
 
 It was clear there was work to be done on improving the site's performance, especially with the hover image on the home page. 
-Upon review of the images, it was discovered that both were over 1mb each, so the images were resized to bring both under the 1mb mark.
+Upon review, it was discovered a fix would be to convert images from jpeg or png to webp, so this was done using an [online converter](https://image.online-convert.com/convert-to-webp).
+This reduced load times, bringing the performance up into the 90s.
+
+![Performance Test Two](assets/docs/lighthouse2.png)
 
 ## Site Containers
 
