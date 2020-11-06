@@ -2,10 +2,10 @@
 
 ## [Mill Comedy](https://robert-clark-1990.github.io/MSP1_Mill_Comedy/)
 
+![Website on display](assets/docs/website.jpg)
+
 This is the website for the up and coming comedian/podcaster/screenwriter, Milly Armstrong Clark. 
 It is designed to be responsible and accessible on a range of devices, making it easy for users to keep up to date with Milly's projects or upcoming events and communicate with her through the use of a contact form.
-
----- INSERT SCREENSHOTS OF WEBSITE HERE --------
 
 This project has been built using the five planes of UX design to develop a site that is focused in its needs and objectives, and provides a high quality experience for the user.
 
@@ -152,15 +152,15 @@ within which the row and col divs had free reign to hug the browser margins. Thi
 
 # Deployment
 
-1. Deployment for this project was straightforward:
+Deployment for this project was a straightforward process:
 
-2. From the GitHub repository, click on settings.
+1. From the GitHub repository, click on settings.
 
-3. Scroll down to the section entitled GitHub Pages.
+2. Scroll down to the section entitled GitHub Pages.
 
-4. From the dropdown menu beneath Source, selected the Master branch and hit save.
+3. From the dropdown menu beneath Source, selected the Master branch and hit save.
 
-5. This will create a link, visible just below the GitHub Pages title in a green box.
+4. This will create a link, visible just below the GitHub Pages title in a green box.
 
 
 # Credits
