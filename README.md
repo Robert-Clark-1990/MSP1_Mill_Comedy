@@ -75,13 +75,34 @@ The wireframe for this project can be viewed [here](assets/doc/mc-wireframes.pdf
 
 #### Mock-ups
 
-In preparation for this project, a basic moc-up of each page has been created to show the intended style of the website as a whole.
+In preparation for this project, a basic mock-up of each page has been created to show the intended style of the website as a whole.
 The mock-ups for this project can be viewed [here](assets/doc/mc-mockup.pdf).
 
 
 # Features
 
-  ----------  INSERT FEATURES HERE ----------
+### Existing Features
+
+1. Home page - This page utilises a clean, professional look to welcome users to the site. A comedic element exists on the homepage, wherein the user can hover over the image of Milly which swaps it to an image of her pulling a face.
+
+2. About page - A short background on Milly's life, both personally and professionally, with an image of her to accompany it.
+
+3. Podcast page - A clean page detailing Milly's podcast, Tea with the Morale Queen, with an embedded element to listen to the most recent podcast, subscribe via a selection of icons, and a support button for those looking to support the podcast.
+
+4. Stand Up page - Following a brief description of her comedic style, users can watch sets from Milly's previous performances.
+
+5. News page - A page of news articles presented in date order, with images and necessary links provided.
+
+6. Contact page - A clean contact form for users to get in touch with Milly.
+
+
+### Features left to implement
+
+1. In order to expand on the full vision of Milly's work, a page dedicated to her wildlife work will be added at a future date.
+
+2. Upon the creation of a mailing list, this will be implemented into the site, with a modal Call to Action on the homepage, a link in the footer, and inclusion on the Contact page.
+
+3. A media page will be added at a future date to include official images of Milly for professional use.
 
 
 # Technologies used
@@ -152,29 +173,51 @@ within which the row and col divs had free reign to hug the browser margins. Thi
 
 # Deployment
 
-Deployment for this project was a straightforward process:
+This project was created using **Gitpod**, and pushed to **GitHub**. To deploy this page to GitHub from it's GitHub repository, the following steps were taken:
 
-1. From the GitHub repository, click on settings.
+1. Visit [GitHub](https://github.com/) and log in.
 
-2. Scroll down to the section entitled GitHub Pages.
+2. From the repositories, select **Robert-Clark-1990/MSP1_Mill_Comedy**.
 
-3. From the dropdown menu beneath Source, selected the Master branch and hit save.
+3. From the GitHub repository, click on **Settings**.
 
-4. This will create a link, visible just below the GitHub Pages title in a green box.
+2. Scroll down to the section entitled **GitHub Pages**.
+
+3. From the dropdown menu beneath **Source**, selected the **Master branch** and hit **save**.
+
+4. This will create a link, visible just **below the GitHub Pages title**, which will take you to the deployed website.
+
+### Running this project locally
+
+To clone this project into Gitpod you will need:
+
+1. A GitHub account.
+
+2. Access to the Chrome browser.
+
+Then follow these steps:
+
+1. Install the Gitpod Browser Extensions for Chrome and restart your browser.
+
+2. Log into Gitpod and navigate to the Project GitHub repository.
+
+3. Click the green **"Gitpod"** button at the top of the repository.
 
 
 # Credits
 
 ### Content
 
-* All written content was created by the developer, Robert Clark with permission from Milly Armstrong Clark.
+* All written content was created by the developer, Robert Clark with permission from [Milly Armstrong Clark](https://www.instagram.com/millcomedy/).
 
 
 ### Media
 
-* All images were created by the developer, Robert Clark, with permission from Milly Armstrong Clark.
+* All images were created by the developer, Robert Clark, with permission from [Milly Armstrong Clark](https://www.instagram.com/millcomedy/).
 
-* All podcasts and videos provided used with permission from Milly Armstrong Clark.
+* All podcasts and videos provided used with permission from [Milly Armstrong Clark](https://www.youtube.com/channel/UCm8_k81-p_cEimTHmhDOB-w).
+
+* Confidence for Breakfast artwork was created by the developer, Robert Clark, with permission from [Melanie Judson](https://www.instagram.com/confidenceforbreakfast/).
 
 
 ### Acknowledgements

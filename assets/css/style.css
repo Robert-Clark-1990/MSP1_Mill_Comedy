@@ -60,10 +60,11 @@ a {
 .link-plug:hover {
     color: #c224b5;
     text-decoration: none;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;  
+    transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out; 
+    -moz-transition: all 0.30s ease-in-out;
+    -webkit-transition: all 0.30s ease-in-out;
+     
 }
 
 .section #section-fit {
@@ -113,10 +114,10 @@ nav a {
 nav a:hover { 
 	color: #7600e4;
     text-decoration: none;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out; 
+    transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out; 
+    -moz-transition: all 0.30s ease-in-out;
+    -webkit-transition: all 0.30s ease-in-out;
 }
 
 nav ul ul {
@@ -157,10 +158,10 @@ footer {
 
 .social-links li a i:hover {
     color: #7600e4;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out; 
+    -moz-transition: all 0.30s ease-in-out;
+    -webkit-transition: all 0.30s ease-in-out;
 }
 
 #footer-image-row {
@@ -179,7 +180,7 @@ footer {
 
 /*------------------------------------------------homepage */
 
-/* Credit to Creative Programmer for the image hover code */
+/* Credit to Creative Programmer (https://codepen.io/creativeprogrammer/pen/RpBpgm) for the image hover code which was adapted for this project */
 
 .swap-on-hover {
     position: relative;
@@ -338,7 +339,7 @@ button[type="submit"]:hover {
         max-width: 80%;
     }
 
-    /* Credit to Andor Nagy for the responsive navbar that was used as a guideline and adapted for this project */
+    /* Credit to Andor Nagy (https://codepen.io/andornagy/pen/RNeydj?editors=1100) for the responsive navbar that was used as a guideline and heavily adapted for this project */
 
 	.toggle {
 		display: block;
