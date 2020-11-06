@@ -229,7 +229,7 @@ footer {
     right: 5;
 }
 
-button[type="support"] {
+button[type="submit"] {
     margin-top: 0px;
     margin-bottom: 20px;
     color: #fafafa;
@@ -238,12 +238,12 @@ button[type="support"] {
     font-family: "Alatsi", sans-serif;
 }
 
-button[type="support"]:hover {
+button[type="submit"]:hover {
     background-color: #c224b5;
     color: #fafafa;
 }
 
-.btn-support a {
+.btn-submit a {
     color: #fafafa;
     text-decoration: none;
     font-family: "Alatsi", sans-serif;
@@ -392,10 +392,4 @@ button[type="submit"]:hover {
 		display:block;
 		width: 94%;
 	}
-}
-
-@media (min-width: 992) {  
-    .center-form {
-        max-width: 70%;
-    }
 }

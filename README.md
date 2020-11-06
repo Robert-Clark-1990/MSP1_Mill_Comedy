@@ -10,7 +10,9 @@ It is designed to be responsible and accessible on a range of devices, making it
 This project has been built using the five planes of UX design to develop a site that is focused in its needs and objectives, and provides a high quality experience for the user.
 
 
-# Strategy
+# User Experience (UX)
+
+### Project Goals
 
 The two main site objectives for this website are as follows: 
 
@@ -18,10 +20,6 @@ The two main site objectives for this website are as follows:
 
 * To showcase a creative curriculum vitae of Milly’s work for potential clients or producers who may be interested in working with her.
 
-The user needs are outlined below in the User Stories.
-
-
-# User Experience (UX)
 
 ### User Stories
 
@@ -171,6 +169,116 @@ In a last ditch attempt to fix it, the entire homepage was rebuilt from scratch 
 within which the row and col divs had free reign to hug the browser margins. This fix has made the site much more attractive to view.
 
 
+
+
+## W3 HTML Validator
+
+### Home Page
+
+* Validator returned with: **Heading cannot be a child of another heading.**
+
+   To fix: closing tag added to h2 elements.
+
+* Validator returned with: **Heading cannot be a child of another heading.**
+
+   To fix: closing tag added to h2 elements.
+
+* Validator returned with: **Empty heading.**
+
+   To fix: closing tag added to h2 element "Comedian".
+
+* Validator returned with: **Heading cannot be a child of another heading.**
+
+   To fix: closing tag added to h2 elements.
+
+* Validator returned with: **Heading cannot be a child of another heading.**
+
+   To fix: closing tag added to h2 elements.
+
+* Validator returned with: **Empty heading.**
+
+   To fix: closing tag added to h2 element "Morale Queen".
+
+* Validator returned with: **Heading cannot be a child of another heading.**
+
+   To fix: closing tag added to h2 elements.
+
+* Validator returned with: **End tag div seen, but there were open elements.**
+
+   To fix: closing tag added to h2 elements above that had been left open by mistake.
+
+* Validator returned with: **Unclosed element h2.**
+
+   To fix: closing tag added to h2 elements.
+
+* Validator returned with: **Empty heading.**
+
+   To fix: closing tag added to h2 element "Professional Tea Drinker".
+
+### About Page
+
+* Validator confirmed **no errors or warnings to show**.
+
+### Podcast Page
+
+* Validator returned with: **Bad value 102x for attribute height on iframe element: Expected a digit but saw x instead.**
+
+   To fix: x digit was removed.
+
+* Validator returned with: **Bad value 350px for attribute width on iframe element: Expected a digit but saw p instead.**
+
+   To fix: px digits were removed.
+
+* Validator returned with: The **frameborder attribute on the **iframe element is obsolete.**
+
+   To fix: frameborder was removed.
+
+* Validator returned with: **The scrolling attribute on the iframe element is obsolete.**
+
+   To fix: frameborder was removed.
+
+* Validator returned with: **Bad value support for attribute type on element button.**
+
+   To fix: Support value was changed to Submit, with relevant fixes made to the accompanying css.
+
+* Validator returned with: **The element a must not appear as a descendant of the button element.**
+
+   To fix: button was rewritten with thanks to code on [w3docs](https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html) that turned it into a form element.
+
+### Standup Page
+
+* Validator returned with : **The frameborder attribute on the iframe element is obsolete.**
+
+   To fix: frameborder was removed.
+
+### News Page
+
+* Validator confirmed **no errors or warnings to show**.
+
+### Contact Page
+
+* Validator confirmed **no errors or warnings to show**.
+
+
+## W3C CSS Validator
+
+* Validator returned with : **193: .swap-on-hover img | Value Error : top only 0 can be a unit. You must put a unit after your number : 10**
+
+   To fix: 
+
+* Validator returned with : **216: .about-image | Value Error : right only 0 can be a unit. You must put a unit after your number : 5**
+
+   To fix:
+
+* Validator returned with : **229 .podcast-image | Value Error : right only 0 can be a unit. You must put a unit after your number : 5**
+
+   To fix:
+
+* Validator returned with : **397 | only 0 can be a unit. You must put a unit after your number**
+
+   To fix: Unnecessary media query deleted.
+
+
 # Deployment
 
 This project was created using **Gitpod**, and pushed to **GitHub**. To deploy this page to GitHub from it's GitHub repository, the following steps were taken:
@@ -220,6 +328,15 @@ Then follow these steps:
 * Confidence for Breakfast artwork was created by the developer, Robert Clark, with permission from [Melanie Judson](https://www.instagram.com/confidenceforbreakfast/).
 
 
+### Code
+
+* Hover Code for images on the Homepage was from [Creative Programmer](https://codepen.io/creativeprogrammer/pen/RpBpgm) on Codepen.
+
+* Responsive Navbar was used as a guideline and heavily adapted from [Andor Nagy](https://codepen.io/andornagy/pen/RNeydj?editors=1100) on Codepen.
+
+* Button that acts as an external link from [w3docs](https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html).
+
+
 ### Acknowledgements
 
 * Thanks to [Milly Armstrong Clark](https://www.instagram.com/millcomedy/) for allowing this project to be based on her incredible work.
@@ -232,3 +349,4 @@ Then follow these steps:
 
 * Thanks to [Andor Nagy](https://codepen.io/andornagy/pen/RNeydj?editors=1100) for their responsive navbar that was used as a guideline and adapted for this project.
 
+* Thanks to [w3docs](https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html) for their button that acts as an external link.
