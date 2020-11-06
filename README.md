@@ -133,8 +133,8 @@ The report brought back the following results.
 
 ![The report brought back the following results](assets/docs/lighthouse.png)
 
-It was clear there was work to be done on improving the site's performance, an issue that likely arose from the use of jpeg and png files instead of jpeg2000 throughout the site, including the main background image. 
-As such, these images were replaced with jpeg2000 images, which brought reduced the latency issue that had previously existed.
+It was clear there was work to be done on improving the site's performance, especially with the hover image on the home page. 
+Upon review of the images, it was discovered that both were over 1mb each, so the images were resized to bring both under the 1mb mark.
 
 ## Site Containers
 

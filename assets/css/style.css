@@ -44,6 +44,10 @@ a {
     text-transform: uppercase;
 }
 
+.sub-uppercase {
+    text-transform: uppercase;
+}
+
 .inline-block {
     display: inline-block;
 }
@@ -314,10 +318,6 @@ button[type="submit"]:hover {
 
 @media all and (max-width : 768px) {
 
-    .section #section-fit {
-    max-width: 90%;
-}
-
 	nav {
 		margin: 0;
 	}
@@ -332,6 +332,10 @@ button[type="submit"]:hover {
 
     h1 {
         font-size: 500%;
+    }
+
+    .swap-on-hover img {
+        max-width: 80%;
     }
 
     /* Credit to Andor Nagy for the responsive navbar that was used as a guideline and adapted for this project */
@@ -353,7 +357,7 @@ button[type="submit"]:hover {
 		background-color: #7600e4;
 	}
 
-	/* Display Dropdown when clicked on Parent Lable */
+	/* Display Dropdown when clicked on Parent */
 	[id^=drop]:checked + ul {
 		display: block;
 	}
