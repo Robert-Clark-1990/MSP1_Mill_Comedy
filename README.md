@@ -178,6 +178,31 @@ within which the row and col divs had free reign to hug the browser margins. Thi
 As the project began to come together and the site was tested on different screen sizes, the issue arose that the heading on the home page was too large for mobile screens.
 To fix, the h1 attribute in the media query section was ruduced from 500% to 300% to ensure it fit on all screen sizes.
 
+### webp Images not loading on Safari
+
+As part of the performance test (outlined below) the decision to replace present jpg and png images with webp was made. 
+This increased the performance drastically, but left the issue that images would not load on Safari browsers.
+
+To fix, [solvit.io](https://solvit.io/bcf61b6) provided a media query that would work on Safari browsers only, which would allow for jpgs and pngs to be used in this, and only this instance.
+
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
+{ @media {
+    .swap-on-hover-head-image-one {
+            content: url("assets/img/head-image-one.png");
+    }
+    .swap-on-hover-head-image-two {
+            content: url("assets/img/head-image-two.png");
+    }
+    .bottom-image {
+            content: url("assets/img/bottom.png");
+    }
+    .about-image {
+            content: url("assets/img/about.png");
+    }
+    .podcast-image {
+            content: url("assets/img/mill.png");
+    }
+
 ## Site performance
 
 During the testing process, the website was subjected to a Lighthouse report to identify and fix common problems that affect the site's performance, accessibility and user experience.
@@ -357,6 +382,8 @@ Then follow these steps:
 
 * Button that acts as an external link from [w3docs](https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html).
 
+* Media Query for Safari only Browser support from [solvit.io](https://solvit.io/bcf61b6).
+
 
 ### Acknowledgements
 
@@ -371,3 +398,5 @@ Then follow these steps:
 * Thanks to [Andor Nagy](https://codepen.io/andornagy/pen/RNeydj?editors=1100) for their responsive navbar that was used as a guideline and adapted for this project.
 
 * Thanks to [w3docs](https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html) for their button that acts as an external link.
+
+* Thanks to [solvit.io](https://solvit.io/bcf61b6) for Safari only media query.
