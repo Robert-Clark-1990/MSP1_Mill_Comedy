@@ -1,6 +1,9 @@
 # Milestone Project 1: Mill Comedy - Comedian Website
 
-## [Mill Comedy](https://robert-clark-1990.github.io/MSP1_Mill_Comedy/)
+## [Mill Comedy Host Link](https://robert-clark-1990.github.io/MSP1_Mill_Comedy/)
+
+## [Mill Comedy GitHub Link](https://github.com/Robert-Clark-1990/MSP1_Mill_Comedy)
+
 
 # Table of Contents
 
@@ -23,8 +26,11 @@
 * Colourblind test
 * W3 HTML Validator
 * W3C CSS Validator
+* Meeting the Site needs
 
 5. Deployment
+* Running this project from the repository
+* Running this project locally
 
 6. Credits
 * Content
@@ -39,6 +45,7 @@ This is the website for the up and coming comedian/podcaster/screenwriter, Milly
 It is designed to be responsible and accessible on a range of devices, making it easy for users to keep up to date with Milly's projects or upcoming events and communicate with her through the use of a contact form.
 
 This project has been built using the five planes of UX design to develop a site that is focused in its needs and objectives, and provides a high quality experience for the user.
+
 
 
 # User Experience (UX)
@@ -112,6 +119,7 @@ In preparation for this project, a basic mock-up of each page has been created t
 The mock-ups for this project can be viewed [here](assets/docs/mc-mockup.pdf).
 
 
+
 # Features
 
 ### Existing Features
@@ -153,6 +161,7 @@ The mock-ups for this project can be viewed [here](assets/docs/mc-mockup.pdf).
 2. Sign Up Form - Upon the creation of a mailing list, this will be implemented into the site, with a modal Call to Action on the homepage, a link in the footer, and inclusion on the Contact page.
 
 3. Media - A media page will be added at a future date to include official images of Milly for professional use.
+
 
 
 # Technologies used
@@ -206,10 +215,17 @@ The mock-ups for this project can be viewed [here](assets/docs/mc-mockup.pdf).
    
    Toptal was used to see how the website would run for colourblind users.
 
+10. [The W3C Markup Validation](https://validator.w3.org/#validate_by_input) 
+
+   W3C Markup Validation was used to ensure HTML and CSS met the necessary standards.
+
+
 
 # Testing
 
+
 ## Bug fixes
+
 
 ### Site Containers
 
@@ -229,10 +245,20 @@ within which the row and col divs had free reign to hug the browser margins. Thi
             <div class="col-md">
 ```
 
+
 ### Home page heading on mobile
 
 As the project began to come together and the site was tested on different screen sizes, the issue arose that the heading on the home page was too large for mobile screens.
 To fix, the h1 attribute in the media query section was ruduced from 500% to 300% to ensure it fit on all screen sizes.
+
+```
+@media all and (max-width : 800px) {
+    h1 {
+        font-size: 300%;
+    }
+}
+```
+
 
 ### Navbar fixed to top on mobile
 
@@ -306,6 +332,8 @@ as the use of pinks and purples could cause some issue. However, upon testing, i
 
 
 ## W3 HTML Validator
+
+[The W3C Markup Validation](https://validator.w3.org/#validate_by_input) was used to ensure HTML met the necessary standards.
 
 ### Home Page
 
@@ -396,6 +424,8 @@ as the use of pinks and purples could cause some issue. However, upon testing, i
 
 ## W3C CSS Validator
 
+[The W3C Markup Validation](https://validator.w3.org/#validate_by_input) was used to ensure CSS met the necessary standards.
+
 * Validator returned with : **193: .swap-on-hover img | Value Error : top only 0 can be a unit. You must put a unit after your number : 10**
 
    To fix: changed to add a %
@@ -413,7 +443,51 @@ as the use of pinks and purples could cause some issue. However, upon testing, i
    To fix: Unnecessary media query deleted.
 
 
+## Meeting the Site needs
+
+As outlined in the Project and User Goals, there were 9 main things that were required of the site:
+
+### Project Goals
+
+1. To create an experience that gives the user a clear understanding of Milly’s creative stylings through the use of colour, images, and written content.
+
+2. To showcase a creative curriculum vitae of Milly’s work for potential clients or producers who may be interested in working with her.
+
+These goals have been successfully met through the use of the Tea with the Morale Queen brand identity, and clear links to Milly's podcast, stand up clips, and social media.
+
+#### First-time visitors
+
+1. To be able to easily understand the purpose of the site, and navigate through the sections with ease.
+
+2. To be able to find information pertaining to Milly Armstrong Clark's upcoming or ongoing projects.
+
+3. To be able to easily locate social media links, and be able to contact Milly through an inbuilt contact form.
+
+These goals have been met through use of responsive navigation at the top and bottom of the screen, and clearly identified links to Milly's work.
+
+#### Returning visitors
+
+1. To be able to easily locate necessary information such as podcast or stand up video links.
+
+2. To be able to easily access links to social media.
+
+These goals have been met through use of responsive navigation at the top and bottom of the screen, and clearly identified links to Milly's work.
+
+#### Potential Client
+
+1. To be able to gain an understanding of Milly’s creative style through the content provided.
+
+2. To have an easily accessible contact form to reach Milly.
+
+These goals have been met through use of responsive navigation at the top and bottom of the screen, and clearly identified links to Milly's work and a designated contact page.
+
+In summary, this project has met all of its intended goals, and has met necessary criteria for a responsive and user friendly website.
+
+
+
 # Deployment
+
+### Running this project from the repository
 
 This project was created using **Gitpod**, and pushed to **GitHub**. To deploy this page to GitHub from it's GitHub repository, the following steps were taken:
 
@@ -428,6 +502,7 @@ This project was created using **Gitpod**, and pushed to **GitHub**. To deploy t
 3. From the dropdown menu beneath **Source**, selected the **Master branch** and hit **save**.
 
 4. This will create a link, visible just **below the GitHub Pages title**, which will take you to the deployed website.
+
 
 ### Running this project locally
 
@@ -446,6 +521,7 @@ Then follow these steps:
 3. Click the green **"Gitpod"** button at the top of the repository.
 
 
+
 # Credits
 
 ### Content
@@ -460,6 +536,22 @@ Then follow these steps:
 * All podcasts and videos provided used with permission from [Milly Armstrong Clark](https://www.youtube.com/channel/UCm8_k81-p_cEimTHmhDOB-w).
 
 * Confidence for Breakfast artwork was created by the developer, Robert Clark, used with permission from [Melanie Judson](https://www.instagram.com/confidenceforbreakfast/).
+
+* Apple Podcasts icon on Podcast page provided by [Apple Podcasts](https://support.apple.com/en-us/HT201859)
+
+* Breaker Audio icon on Podcast page provided by [Breaker Audio](https://www.breaker.audio/)
+
+* Google Podcasts icon on Podcast page provided by [Google Podcasts](https://podcasts.google.com/)
+
+* Overcast icon on Podcast page provided by [Overcast](https://overcast.fm/)
+
+* Pocket Casts icon on Podcast page provided by [Pocket Casts](https://www.pocketcasts.com/)
+
+* Radio Public icon on Podcast page provided by [Radio Public](https://radiopublic.com/)
+
+* Spotify icon on Podcast page provided by [Spotify](https://open.spotify.com/)
+
+* YouTube icon on Podcast page provided by [YouTube](https://www.youtube.com/)
 
 
 ### Code
