@@ -155,6 +155,29 @@ The mock-ups for this project can be viewed [here](assets/doc/mc-mockup.pdf).
 
 # Testing
 
+## Bug fixes
+
+### Site Containers
+
+Throughout development, the website seemed unresponsive and clung to the margins of the browser despite efforts made to counter this. 
+
+<section>
+    <div class="row">
+        <div class="col-md">
+
+In a last ditch attempt to fix it, the entire homepage was rebuilt from scratch to see if the issue would persist, and low and behold, the issue was the lack of a container div, 
+within which the row and col divs had free reign to hug the browser margins. This fix has made the site much more attractive to view.
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md">
+
+### Home page heading on mobile
+
+As the project began to come together and the site was tested on different screen sizes, the issue arose that the heading on the home page was too large for mobile screens.
+To fix, the h1 attribute in the media query section was ruduced from 500% to 300% to ensure it fit on all screen sizes.
+
 ## Site performance
 
 During the testing process, the website was subjected to a Lighthouse report to identify and fix common problems that affect the site's performance, accessibility and user experience.
@@ -168,11 +191,6 @@ This reduced load times, bringing the performance up into the 90s.
 
 ![Performance Test Two](assets/docs/lighthouse2.png)
 
-## Site Containers
-
-Throughout development, the website seemed unresponsive and clung to the margins of the browser despite efforts made to counter this. 
-In a last ditch attempt to fix it, the entire homepage was rebuilt from scratch to see if the issue would persist, and low and behold, the issue was the lack of a container div, 
-within which the row and col divs had free reign to hug the browser margins. This fix has made the site much more attractive to view.
 
 ## W3 HTML Validator
 

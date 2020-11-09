@@ -218,6 +218,7 @@ footer {
 
 .about-text {
     height: 80%;
+    padding-bottom: 80px;
 }
 
 /*------------------------------------------------podcast */
@@ -257,6 +258,10 @@ button[type="submit"]:hover {
 
 /*------------------------------------------------standup */
 
+.standup-row {
+    padding-bottom: 80px;
+}
+
 .standupclip {
     display: flex;
     align-items: center;
@@ -264,6 +269,10 @@ button[type="submit"]:hover {
 }
 
 /*------------------------------------------------news */
+
+.news-row{
+    padding-bottom: 20px;
+}
 
 .news-img {
     max-width: 60%;
@@ -289,7 +298,7 @@ button[type="submit"]:hover {
 /*------------------------------------------------contact */
 
 .center-form {
-    padding: 10px;
+    padding: 10px 0 50px 0;
     margin: 0 auto;
     max-width: 90%;
 }
@@ -317,7 +326,7 @@ button[type="submit"]:hover {
 
 /*------------------------------------------------Media Query */
 
-@media all and (max-width : 768px) {
+@media all and (max-width : 800px) {
 
 	nav {
 		margin: 0;
@@ -332,7 +341,7 @@ button[type="submit"]:hover {
     }
 
     h1 {
-        font-size: 500%;
+        font-size: 300%;
     }
 
     .swap-on-hover img {
