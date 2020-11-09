@@ -2,6 +2,37 @@
 
 ## [Mill Comedy](https://robert-clark-1990.github.io/MSP1_Mill_Comedy/)
 
+# Table of Contents
+
+1. User Experience (UX)
+* Project Goals
+* User Stories
+* Design
+
+2. Features
+* Existing Features
+* Future features to implement
+
+3. Technologies Used
+* Language Used
+* Frameworks, Libraries & Programs Used
+
+4. Testing
+* Bug fixes
+* Site performance
+* Colourblind test
+* W3 HTML Validator
+* W3C CSS Validator
+
+5. Deployment
+
+6. Credits
+* Content
+* Media
+* Code
+* Acknowledgements
+
+
 ![Website on display](assets/docs/website.jpg)
 
 This is the website for the up and coming comedian/podcaster/screenwriter, Milly Armstrong Clark. 
@@ -70,7 +101,7 @@ These images reflect the style of comedy used in her work, building consistency 
 #### Wireframes
 
 In preparation for this project, a basic wireframe of each page and how it would be viewed in desktop, tablet and mobile has been created.
-The wireframe for this project can be viewed [here](../doc/mc-wireframes.pdf).
+The wireframe for this project can be viewed [here](assets/docs/mc-wireframes.pdf).
 
 ![Website on display](assets/docs/wireframes.png)
 
@@ -78,7 +109,7 @@ The wireframe for this project can be viewed [here](../doc/mc-wireframes.pdf).
 #### Mock-ups
 
 In preparation for this project, a basic mock-up of each page has been created to show the intended style of the website as a whole.
-The mock-ups for this project can be viewed [here](../doc/mc-mockup.pdf).
+The mock-ups for this project can be viewed [here](assets/docs/mc-mockup.pdf).
 
 
 # Features
@@ -171,6 +202,10 @@ The mock-ups for this project can be viewed [here](../doc/mc-mockup.pdf).
 
     Tinypng was used to optimise jpg and png images to increase performance.
 
+9. [toptal](https://www.toptal.com/designers/colorfilter/) 
+   
+   Toptal was used to see how the website would run for colourblind users.
+
 
 # Testing
 
@@ -180,17 +215,19 @@ The mock-ups for this project can be viewed [here](../doc/mc-mockup.pdf).
 
 Throughout development, the website seemed unresponsive and clung to the margins of the browser despite efforts made to counter this. 
 
-<section>
+```<section>
     <div class="row">
         <div class="col-md">
+```
 
 In a last ditch attempt to fix it, the entire homepage was rebuilt from scratch to see if the issue would persist, and low and behold, the issue was the lack of a container div, 
 within which the row and col divs had free reign to hug the browser margins. This fix has made the site much more attractive to view.
 
-<section>
+```<section>
     <div class="container">
         <div class="row">
             <div class="col-md">
+```
 
 ### Home page heading on mobile
 
@@ -205,11 +242,17 @@ The report brought back the following results.
 
 ![Performance Test One](assets/docs/lighthouse.png)
 
-It was clear there was work to be done on improving the site's performance, especially with the hover image on the home page. 
+It was clear there was work to be done on improving the site's performance, especially with the hover image on the home page. Initially it was decided to convert images from jpg and png into webp, however this brought up issues with images loading on Safari browsers. Attempts to fix this were made with the use of a media query intended to target Safari only, but this was in vein.
 Upon discussion with mentor Anthony Ngene, it was discussed using online image optimiser [tinypng.com](https://tinypng.com/) which reduced image sizes by 70-90%.
-This reduced load times, bringing the performance up into the 90s.
+This reduced load times, bringing the performance up into the 90s, and ensured the content would still load on all browsers.
 
 ![Performance Test Two](assets/docs/lighthouse2.png)
+
+
+## Colourblind test
+
+During the end stage development of the site, it was suggested by mentor Anthony Ngene to run the site through colourblind testing site [toptal](https://www.toptal.com/designers/colorfilter/) 
+as the use of pinks and purples could cause some issue. However, upon testing, it was discovered that no use issues arose, meaning the site was acceptable for colourblind users.
 
 
 ## W3 HTML Validator
@@ -382,7 +425,7 @@ Then follow these steps:
 
 * Thanks to [Milly Armstrong Clark](https://www.instagram.com/millcomedy/) for allowing this project to be based on her incredible work.
 
-* Thanks to mentor Anthony Ngene for his advice and guidance throughout the project.
+* Thanks to mentor [Anthony Ngene](https://github.com/tonymontaro) for his advice and guidance throughout the project.
 
 * Thanks to Slack User Healycian90 for their help recovering work not pushed to GitHub.
 
