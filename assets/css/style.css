@@ -343,8 +343,15 @@ button[type="submit"]:hover {
 @media all and (max-width : 800px) {
 
 	nav {
-		margin: 0;
-	}
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 3;
+    }
+
+    .container {
+        padding-top: 70px;
+    }
 
 	.menu {
 		display: none;
@@ -366,8 +373,10 @@ button[type="submit"]:hover {
 
 	.toggle {
 		display: block;
-		background-color: rgba(0, 0, 0, 0.2);
-		padding:14px 20px;	
+        width: 100%;
+        background-color: #aa3ee8;
+		padding:20px 20px;
+        margin: 0;	
 		color:#fafafa;
         font-family: "Alatsi", sans-serif;
         text-transform: uppercase;
@@ -389,7 +398,12 @@ button[type="submit"]:hover {
 	nav ul li {
 		display: block;
 		width: 100%;
+        background-color: #bf6efb;
 		}
+
+    nav ul li:active {
+        background-color: #c224b5;
+    }
 
 	/* Hide Dropdowns by Default */
 	nav ul ul {
