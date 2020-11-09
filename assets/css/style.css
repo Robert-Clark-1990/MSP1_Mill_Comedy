@@ -402,3 +402,33 @@ button[type="submit"]:hover {
 		width: 94%;
 	}
 }
+
+/*    Credit to solvit.io (https://solvit.io/bcf61b6) for Safari only media query    */
+
+/*    Hopes to fix issue of webp images not loading on Safari browser    */
+
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
+{ @media {
+    body {
+            background-image: url(assets/img/background.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    .swap-on-hover-head-image-one {
+            src: "assets/img/head-image-one.png";
+    }
+    .swap-on-hover-head-image-two {
+            src: "assets/img/head-image-two.png";
+    }
+    .bottom-image {
+            src: "assets/img/bottom.png";
+    }
+    .about-image {
+            src: "assets/img/about.png";
+    }
+    .podcast-image {
+            src: "assets/img/mill.png";
+    }
+}
+}
