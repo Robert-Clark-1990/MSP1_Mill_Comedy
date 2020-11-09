@@ -234,6 +234,56 @@ within which the row and col divs had free reign to hug the browser margins. Thi
 As the project began to come together and the site was tested on different screen sizes, the issue arose that the heading on the home page was too large for mobile screens.
 To fix, the h1 attribute in the media query section was ruduced from 500% to 300% to ensure it fit on all screen sizes.
 
+### Navbar fixed to top on mobile
+
+Following a discussion with mentor Anthony Ngene, it was decided that the navbar on mobile should remain fixed to the top of the screen.
+
+``` 
+@media all and (max-width : 800px) {
+
+nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 3;
+    }
+
+.container {
+        padding-top: 70px;
+    }
+```
+To begin, the nav was edited in the media query to ensure it stayed fixed, with a z-index to ensure it stood in front of the other content. 
+A container padding-top was added to ensure content appeared below the fixed nav.
+
+```
+.toggle {
+		display: block;
+        width: 100%;
+        background-color: #aa3ee8;
+		padding:20px 20px;
+        margin: 0;	
+		color:#fafafa;
+        font-family: "Alatsi", sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+		font-size:17px;
+		text-decoration:none;
+		border:none;
+	}
+
+nav ul li {
+		display: block;
+		width: 100%;
+        background-color: #bf6efb;
+		}
+
+    nav ul li:active {
+        background-color: #c224b5;
+    }
+```
+However this change meant further fixes had to be made to ensure the user had feedback when they selected an item from the menu. 
+With a background-color applied to the .toggle function to match the background-color of the site, the nav ul li:active function was added to change the colour of the list item once selected.
+
 
 ## Site performance
 
