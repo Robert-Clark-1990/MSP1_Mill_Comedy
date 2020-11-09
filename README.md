@@ -70,13 +70,15 @@ These images reflect the style of comedy used in her work, building consistency 
 #### Wireframes
 
 In preparation for this project, a basic wireframe of each page and how it would be viewed in desktop, tablet and mobile has been created.
-The wireframe for this project can be viewed [here](assets/doc/mc-wireframes.pdf).
+The wireframe for this project can be viewed [here](../doc/mc-wireframes.pdf).
+
+![Website on display](assets/docs/wireframes.png)
 
 
 #### Mock-ups
 
 In preparation for this project, a basic mock-up of each page has been created to show the intended style of the website as a whole.
-The mock-ups for this project can be viewed [here](assets/doc/mc-mockup.pdf).
+The mock-ups for this project can be viewed [here](../doc/mc-mockup.pdf).
 
 
 # Features
@@ -85,15 +87,32 @@ The mock-ups for this project can be viewed [here](assets/doc/mc-mockup.pdf).
 
 1. Home page - This page utilises a clean, professional look to welcome users to the site. A comedic element exists on the homepage, wherein the user can hover over the image of Milly which swaps it to an image of her pulling a face.
 
+![Home Page](assets/docs/homepage-design.png)
+
+
 2. About page - Allows users to read short background on Milly's life, both personally and professionally, with an image of her to accompany it.
+
+![About Page](assets/docs/about-design.png)
+
 
 3. Podcast page - Allows users access to a clean page detailing Milly's podcast, Tea with the Morale Queen, with an embedded element to listen to the most recent podcast, subscribe via a selection of icons, and a support button for those looking to support the podcast.
 
+![Podcast Page](assets/docs/podcast-design.png)
+
+
 4. Stand Up page - Following a brief description of her comedic style, users can watch sets from Milly's previous performances.
+
+![Stand Up Page](assets/docs/standup-design.png)
+
 
 5. News page - Allows users to view a page of news articles presented in date order, with images and necessary links provided.
 
+![News Page](assets/docs/news-design.png)
+
+
 6. Contact page - A clean contact form for users to get in touch with Milly.
+
+![Contact Page](assets/docs/contact-design.png)
 
 
 ### Future features to implement

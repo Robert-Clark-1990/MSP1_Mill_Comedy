@@ -73,6 +73,19 @@ a {
      
 }
 
+/*page-text used for single row element pages (about, podcast) */
+
+.page-text {
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+/*alt-page-text used when page contents split across different rows (standup, news) */
+
+.alt-page-text {
+    padding-top: 50px;
+}
+
 .section #section-fit {
     max-width: 80%;
 }
@@ -220,11 +233,6 @@ footer {
     position: fixed;
     bottom: 0;
     right: 5%;
-}
-
-.about-text {
-    height: 80%;
-    padding-bottom: 80px;
 }
 
 /*------------------------------------------------podcast */
