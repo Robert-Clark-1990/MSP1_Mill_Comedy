@@ -2,6 +2,12 @@
 
 /*------------------------------------------------background */
 
+body {
+            background-image: url(../img/background.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
 
 /*------------------------------------------------fonts */
 
@@ -401,34 +407,4 @@ button[type="submit"]:hover {
 		display:block;
 		width: 94%;
 	}
-}
-
-/*    Credit to solvit.io (https://solvit.io/bcf61b6) for Safari only media query    */
-
-/*    Hopes to fix issue of webp images not loading on Safari browser    */
-
-@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
-{ @media {
-    body {
-            background-image: url(assets/img/background.jpg);
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-        }
-    .swap-on-hover-head-image-one {
-            content: url("assets/img/head-image-one.png");
-    }
-    .swap-on-hover-head-image-two {
-            content: url("assets/img/head-image-two.png");
-    }
-    .bottom-image {
-            content: url("assets/img/bottom.png");
-    }
-    .about-image {
-            content: url("assets/img/about.png");
-    }
-    .podcast-image {
-            content: url("assets/img/mill.png");
-    }
-}
 }

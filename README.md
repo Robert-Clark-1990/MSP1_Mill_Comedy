@@ -148,9 +148,9 @@ The mock-ups for this project can be viewed [here](assets/doc/mc-mockup.pdf).
 
     Codepen was used for reference of homepage hover functionality.
 
-8. [Online Convert](https://image.online-convert.com/convert-to-webp)
+8. [tinypng.com](https://tinypng.com/)
 
-    Online Convert was used to turn images into webp format.
+    Tinypng was used to optimise jpg and png images to increase performance.
 
 
 # Testing
@@ -178,30 +178,6 @@ within which the row and col divs had free reign to hug the browser margins. Thi
 As the project began to come together and the site was tested on different screen sizes, the issue arose that the heading on the home page was too large for mobile screens.
 To fix, the h1 attribute in the media query section was ruduced from 500% to 300% to ensure it fit on all screen sizes.
 
-### webp Images not loading on Safari
-
-As part of the performance test (outlined below) the decision to replace present jpg and png images with webp was made. 
-This increased the performance drastically, but left the issue that images would not load on Safari browsers.
-
-To fix, [solvit.io](https://solvit.io/bcf61b6) provided a media query that would work on Safari browsers only, which would allow for jpgs and pngs to be used in this, and only this instance.
-
-@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
-{ @media {
-    .swap-on-hover-head-image-one {
-            content: url("assets/img/head-image-one.png");
-    }
-    .swap-on-hover-head-image-two {
-            content: url("assets/img/head-image-two.png");
-    }
-    .bottom-image {
-            content: url("assets/img/bottom.png");
-    }
-    .about-image {
-            content: url("assets/img/about.png");
-    }
-    .podcast-image {
-            content: url("assets/img/mill.png");
-    }
 
 ## Site performance
 
@@ -211,7 +187,7 @@ The report brought back the following results.
 ![Performance Test One](assets/docs/lighthouse.png)
 
 It was clear there was work to be done on improving the site's performance, especially with the hover image on the home page. 
-Upon review, it was discovered a fix would be to convert images from jpeg or png to webp, so this was done using an [online converter](https://image.online-convert.com/convert-to-webp).
+Upon discussion with mentor Anthony Ngene, it was discussed using online image optimiser [tinypng.com](https://tinypng.com/) which reduced image sizes by 70-90%.
 This reduced load times, bringing the performance up into the 90s.
 
 ![Performance Test Two](assets/docs/lighthouse2.png)
@@ -382,12 +358,12 @@ Then follow these steps:
 
 * Button that acts as an external link from [w3docs](https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html).
 
-* Media Query for Safari only Browser support from [solvit.io](https://solvit.io/bcf61b6).
-
 
 ### Acknowledgements
 
 * Thanks to [Milly Armstrong Clark](https://www.instagram.com/millcomedy/) for allowing this project to be based on her incredible work.
+
+* Thanks to mentor Anthony Ngene for his advice and guidance throughout the project.
 
 * Thanks to Slack User Healycian90 for their help recovering work not pushed to GitHub.
 
@@ -398,5 +374,3 @@ Then follow these steps:
 * Thanks to [Andor Nagy](https://codepen.io/andornagy/pen/RNeydj?editors=1100) for their responsive navbar that was used as a guideline and adapted for this project.
 
 * Thanks to [w3docs](https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html) for their button that acts as an external link.
-
-* Thanks to [solvit.io](https://solvit.io/bcf61b6) for Safari only media query.
