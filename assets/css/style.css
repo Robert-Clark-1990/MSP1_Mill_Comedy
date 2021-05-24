@@ -23,7 +23,7 @@ p {
 
 h1 {
     color: #fafafa;
-    font-size: 600%;
+    font-size: 500%;
 }
 
 h2 {
@@ -170,7 +170,7 @@ footer {
     width: 40px;
     height: 30px;
     border-radius: 50%;
-    font-size: 40px;
+    font-size: 2em;
     line-height: 10px;
     color: #fafafa;
 }
@@ -221,6 +221,7 @@ footer {
 .swap-on-hover:hover > .swap-on-hover-head-image-one {
     opacity: 0;
 }
+
 
 /*------------------------------------------------about */
 
