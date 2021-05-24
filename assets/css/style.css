@@ -76,8 +76,8 @@ a {
 /*page-text used for single row element pages (about, podcast) */
 
 .page-text {
-    padding-top: 50px;
-    padding-bottom: 90px;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 /*alt-page-text used when page contents split across different rows (standup, news) */
@@ -237,6 +237,16 @@ footer {
     right: 10%;
 }
 
+.btn {
+    background-color: #7600e4;
+    color: #fafafa;
+}
+
+.btn:hover {
+    background-color: #c224b5;
+    color: #fafafa;
+}
+
 /*------------------------------------------------podcast */
 
 .podcast-image {
@@ -342,7 +352,24 @@ button[type="submit"]:hover {
 
 /*------------------------------------------------Media Query */
 
-@media all and (max-width : 800px) {
+@media all and (max-width : 1000px) {
+    h1 {
+        font-size: 400%;
+    }
+
+    .swap-on-hover img {
+        max-width: 60%;
+        right: 5%;
+    }
+    .about-image {
+        max-height: 70%;
+        position: fixed;
+        bottom: 0;
+        right: 5%;
+    }
+}
+
+@media all and (max-width : 769px) {
 
 	nav {
         position: fixed;
@@ -368,11 +395,9 @@ button[type="submit"]:hover {
     }
 
     .swap-on-hover img {
-        max-width: 60%;
+        max-height: 50%;
         right: 20%;
     }
-
-    /* Credit to Andor Nagy (https://codepen.io/andornagy/pen/RNeydj?editors=1100) for the responsive navbar that was used as a guideline and heavily adapted for this project */
 
 	.toggle {
 		display: block;
