@@ -23,7 +23,7 @@ p {
 
 h1 {
     color: #fafafa;
-    font-size: 500%;
+    font-size: 550%;
 }
 
 h2 {
@@ -163,12 +163,12 @@ footer {
 }
 
 .social-links {
-    padding: 30px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
 }
 
 .social-links li a i {
-    width: 40px;
-    height: 30px;
+    width: 30px;
+    height: 20px;
     border-radius: 50%;
     font-size: 2em;
     line-height: 10px;
@@ -208,9 +208,10 @@ footer {
 }
 
 .swap-on-hover img {
-    position: absolute;
-    top: 10%;
-    max-height: 900px;
+    position: fixed;
+    bottom: 0;
+    right: 10%;
+    max-height: 80%;
 }
 
 .swap-on-hover .swap-on-hover-head-image-one {
@@ -233,7 +234,7 @@ footer {
     max-height: 80%;
     position: fixed;
     bottom: 0;
-    right: 5%;
+    right: 10%;
 }
 
 /*------------------------------------------------podcast */
@@ -367,7 +368,8 @@ button[type="submit"]:hover {
     }
 
     .swap-on-hover img {
-        max-width: 80%;
+        max-width: 60%;
+        right: 20%;
     }
 
     /* Credit to Andor Nagy (https://codepen.io/andornagy/pen/RNeydj?editors=1100) for the responsive navbar that was used as a guideline and heavily adapted for this project */
