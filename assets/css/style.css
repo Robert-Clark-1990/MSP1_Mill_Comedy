@@ -4,6 +4,7 @@
 
 body {
             background-image: url(../img/background.jpg);
+            background-color: #ce8bfc;
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
@@ -223,6 +224,13 @@ footer {
     opacity: 0;
 }
 
+.sub-head-mobile {
+    font-size: medium;
+}
+
+.sub-head-main {
+    display: none;
+}
 
 /*------------------------------------------------about */
 
@@ -347,7 +355,12 @@ button[type="submit"]:hover {
     font-family: "Roboto", sans-serif;
     text-align: center;
     color: #7600e4;
+}
 
+#form div[data-role="form-footer"] {
+    margin-top: 15px;
+    display: none !important;
+    color: rgba(0, 0, 0, 0) !important;
 }
 
 /*------------------------------------------------Media Query */
@@ -366,6 +379,16 @@ button[type="submit"]:hover {
         position: fixed;
         bottom: 0;
         right: 5%;
+    }
+}
+
+@media all and (min-width: 765px) {
+    .sub-head-mobile {
+        display: none;
+    }
+    
+    .sub-head-main {
+        display: contents;
     }
 }
 
